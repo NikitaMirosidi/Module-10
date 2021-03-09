@@ -2,19 +2,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Names {
-    static List<String> NAMES = new ArrayList<>();
+    static List<String> names = new ArrayList<>();
     static {
-        NAMES.add("Spider-Man");
-        NAMES.add("Iron Man");
-        NAMES.add("Hulk");
-        NAMES.add("Doctor Strange");
-        NAMES.add("Capitan America");
-        NAMES.add("Hawkeye");
-        NAMES.add("Thor");
-        NAMES.add("Loki");
-        NAMES.add("Thanos");
-        NAMES.add("Groot");
-        NAMES.add("Gamora");
-        NAMES.add("Starlord");
+        names.add("Spider-Man");
+        names.add("Iron Man");
+        names.add("Hulk");
+        names.add("Doctor Strange");
+        names.add("Capitan America");
+        names.add("Hawkeye");
+        names.add("Thor");
+        names.add("Loki");
+        names.add("Thanos");
+        names.add("Groot");
+        names.add("Gamora");
+        names.add("Starlord");
     }
 }

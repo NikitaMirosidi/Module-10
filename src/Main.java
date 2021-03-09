@@ -4,11 +4,11 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Task 1:");
-        System.out.println(Task1.method(Names.NAMES));
+        System.out.println(Task1.method(Names.names));
 
         System.out.println("\nTask 2:");
         Task2 task2 = new Task2();
-        System.out.println(task2.method(Names.NAMES));
+        System.out.println(task2.method(Names.names));
 
         System.out.println("\nTask 3:");
         Task3 task3 = new Task3();
