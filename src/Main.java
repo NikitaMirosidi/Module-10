@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Task 1:");
         System.out.println(Task1.method(Names.names));
 
-        System.out.println("\nTask 2:");
+        /*System.out.println("\nTask 2:");
         Task2 task2 = new Task2();
         System.out.println(task2.method(Names.names));
 
@@ -25,6 +25,6 @@ public class Main {
 
         System.out.println("\nTask 5:");
         Stream<Integer> stream2 = Task5.zip(Stream.generate(() -> 6).limit(15), Stream.generate(() -> 9).limit(10));
-        stream2.forEach(System.out::println);
+        stream2.forEach(System.out::println);*/
     }
 }
