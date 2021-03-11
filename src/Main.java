@@ -12,7 +12,7 @@ public class Main {
 
         System.out.println("\nTask 3:");
         Task3 task3 = new Task3();
-        System.out.println(task3.method(Arrays.asList("\"1", "2", "0\"", "\"4", "5\"")));
+        System.out.println(task3.method(Arrays.asList("1, 2, 0", "4, 5")));
 
         /*System.out.println("\nTask 4:");
         long seed = 533636365L;
